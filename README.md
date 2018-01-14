@@ -62,7 +62,7 @@ Before running the code, please, make sure to have all the required data in the 
 ```
 - Install **Dlib C++ library**
 ```
-	(http://dlib.net/)
+	(http://dlib.net/) or download it in github. After the download, using 'python setup.py install' to install dlib.
 ```
 - Update Dlib directory paths (`DLIB_INCLUDE_DIR` and `DLIB_LIB_DIR`) in `CMakeLists.txt`
 - Make build directory (temporary). Make & install to bin folder
